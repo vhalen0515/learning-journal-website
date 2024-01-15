@@ -1,0 +1,72 @@
+/* -------------------------- TYPOGRAPHY --------------------------*/
+
+#full-article-date {
+    font-weight: 300;
+}
+
+#full-article-title {
+    font-size: 2.4rem;
+}
+
+.full-article-text {
+    font-size: 1.2rem;
+    color: #505050;
+}
+
+.full-article-sub-heading {
+    font-size: 1.4rem;
+}
+
+#recent-posts {
+    font-size: clamp(1.2rem, 1.0846rem + 0.4615vw, 1.5rem);
+}
+    
+    /* -------------------------- IMAGES --------------------------*/
+
+#full-article-img {
+    width: 100%;
+}
+
+/* -------------------------- LAYOUT --------------------------*/
+
+#full-article-container {
+    margin: 3.5rem 0 4.5rem 0;
+}
+
+#full-article-container,
+#full-article-top-text,
+#full-article-bottom-text {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+#full-article-top-text,
+#full-article-bottom-text {
+    margin: 0 clamp(1.5rem, -1rem + 10vw, 8rem);
+}
+
+#full-article-img-container {
+    margin: 0 clamp(1.7rem, 0.4308rem + 5.0769vw, 5rem);
+}
+
+#recent-posts {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.5em;
+}
+
+#recent-article-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 1.5em;
+    margin: clamp(1rem, 0.4231rem + 2.3077vw, 2.5rem);
+}
+
+/* -------------------------- MEDIA QUERIES --------------------------*/
+
+@media (min-width: 900px) {
+    #recent-article-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
