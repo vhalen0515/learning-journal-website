@@ -32,7 +32,7 @@ nav ul li a {
     text-decoration: none;
     color: black;
     text-transform: uppercase;
-    font-size: clamp(1rem, 0.8846rem + 0.4615vw, 1.3rem);
+    font-size: clamp(0.8rem, 0.6077rem + 0.7692vw, 1.3rem);
 }
 
 #featured-article-date,
@@ -44,7 +44,7 @@ nav ul li a {
 
 #featured-article-text,
 .sub-article-text {
-    font-size: clamp(1.1rem, 1.0231rem + 0.3077vw, 1.3rem);
+    font-size: clamp(1rem, 0.8846rem + 0.4615vw, 1.3rem);
 }
 
 .sub-article-text {
@@ -52,7 +52,7 @@ nav ul li a {
 }
 
 #featured-article-title {
-    font-size: clamp(2rem, 1.4231rem + 2.3077vw, 3.5rem);
+    font-size: clamp(1.75rem, 1.0769rem + 2.6923vw, 3.5rem);
 }
 
 .sub-article-title {
