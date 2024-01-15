@@ -95,7 +95,7 @@ footer p {
 
 header {
     background-color: white;
-    padding: clamp(1.5rem, 1.3077rem + 0.7692vw, 2rem) clamp(1.5rem, 1.1154rem + 1.5385vw, 2.5rem);
+    padding: clamp(1.5rem, 1.3077rem + 0.7692vw, 2rem) clamp(1rem, 0.4231rem + 2.3077vw, 2.5rem);
     width: 100%;
 }
 
