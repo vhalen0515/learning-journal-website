@@ -3,7 +3,7 @@ export const articleData = [
         date: 'August 8, 2023',
         title: 'My new journey as a bootcamp student',
         image: 'images/hero-article.png',
-        summaryText: "Lorem ipsum dolor sit adipisicing elit. Consectetur itaque, enim ab incidunt minus explicabo quibusdam, architecto voluptatum, eum nam cupiditate quisquam animi totam repudiandae nobis veniam inventore natus vel.",
+        summaryText: "I'm excited to start a new learning journey as a Scrimba Bootcamp student! After several months of learning in the Frontend Developer Career Path.",
         isFeatured: true
     },
     {
